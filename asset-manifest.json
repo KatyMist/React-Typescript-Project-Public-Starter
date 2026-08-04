@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-Typescript-Project-Public-Starter/static/css/main.ea6aae1d.css",
+    "main.js": "/React-Typescript-Project-Public-Starter/static/js/main.a4a29539.js",
+    "index.html": "/React-Typescript-Project-Public-Starter/index.html",
+    "main.ea6aae1d.css.map": "/React-Typescript-Project-Public-Starter/static/css/main.ea6aae1d.css.map",
+    "main.a4a29539.js.map": "/React-Typescript-Project-Public-Starter/static/js/main.a4a29539.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea6aae1d.css",
+    "static/js/main.a4a29539.js"
+  ]
+}
