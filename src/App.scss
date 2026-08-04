@@ -1,0 +1,78 @@
+@import './styles/variables';
+
+body {
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(120deg, $color-bg-left 0%, $color-cream-light 45%, $color-bg-right 100%);
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+  z-index: 2;
+  max-width: $max-width;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px 60px;
+}
+
+/* Логотип */
+.logo {
+  text-align: center;
+  margin: 70px 0 40px;
+
+  &__mark {
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom: -6px;
+  }
+
+  &__title {
+    display: block;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    color: $color-text;
+    text-transform: uppercase;
+  }
+
+  &__flag {
+    width: 140px;
+    height: 4px;
+    margin: 10px auto 14px;
+    border-radius: 2px;
+    background: linear-gradient(
+      to right,
+      $color-flag-green 0%, $color-flag-green 33%,
+      $color-white 33%, $color-white 66%,
+      $color-flag-red 66%, $color-flag-red 100%
+    );
+  }
+
+  &__subtitle {
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: $color-text-muted;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    margin: 30px 0;
+
+    &__title {
+      font-size: 34px;
+      letter-spacing: 3px;
+    }
+  }
+}
